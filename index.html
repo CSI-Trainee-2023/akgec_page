@@ -1,71 +1,1029 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AKGEC PAGE</title>
 </head>
 <style>
-    *{
+    body {
+       background-color: #fcfcfc;
+    }
+    * {
         padding: 0px;
         margin: 0px;
     }
-.footer{
-    width: 1450px;
-    height: 350px;
-    background-color: gray;
-    padding: 9px;
-    border: 3px yellow;
-}
-.top header{
-    position: fixed;
-        }
-.navigation{
+
+    .footer {
+        height: 263px;
+        width: 1494px;
+        background-color: gray;
+        padding: 9px;
+        border: 3px yellow;
+    }
+    /* HEADER */
+    .top header {
+        position: fixed;
+        background-color: blanchedalmond;
+    }
+    .navigation {
+        
+        height: 75px;
+        width: 1513px;
+        display: flex;
+        justify-content: space-between;
+       
+    }
+    .name{
+        font-size: x-large;
+    font-family: cursive;
+    font-style: oblique;
+    }
+    .azadi{
+        width: 137px;
+        background-image: url("azadimlogo.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .logo{
+        width: 137px;
+        background-image: url("akglogo.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .SILVERlogo{
+        width: 137px;
+        background-image: url("Silver-Jubilee-Logo.jpeg");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .NAACazadi{
+        width: 137px;
+        background-image: url("NAACLogo.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .topheader{
+        height: 189px;
+    }
+
+    .blackheader {
+        height: 114px;
+        background-color: black;
+        color: aliceblue;
+        border: 10px salmon;
+        /* margin: 0px; */
+        /* padding: 0px; */
+    }
+/* NOTICE */
+    .Notice {
+        padding: 2px;
+        box-sizing: content-box;
+        margin: 4px;
+        text-align: center;
+        background-color: maroon;
+        color: azure;
+    }
+
+    .image {
+
+        margin: 0px;
+        height: 660px;
+    border-bottom: 10px solid orange;
+        background-image: url(NAAC-Banner.png);
+        padding: 5px;
+        background-repeat: no-repeat;
+        background-size: contain;
+
+    }
+
+   
+.about {
+    display: flex;
+    height: 34px;
+    justify-content: center;
+    width: 1500px;
     text-align: center;
-    background-color: aqua;
-    /* padding:12px; */
-    height: 78px;
-    background-image: url(akglogo.jpg);
+    font-size: x-large;
+    border-top: 10px solid orange;
+    /* background-color: rgb(98, 255, 229); */
+    border-bottom: 10px solid orange;
+    /* padding: 1px; */
+    margin-top: 76px;
+}
+    .college {
+        display: flex;
+        flex-direction: column;
+        padding: 60px;
+        margin: 0px;
+        text-align: left;
+    }
+
+    .image_ {
+        margin: 70px;
+        height: 350px;
+        /* display: flex; */
+        width: 2000px;
+        background-image: url(home_about.jpg);
+        background-repeat: no-repeat;
+        text-align: left;
+        background-color: beige;
+        text-align: right;
+
+    }
+
+    .section {
+        border-bottom: 10px solid #FFC107;
+        display: flex;
+        background-color: white;
+        text-align: right;
+        margin-bottom: 60px;
+
+    }
+
+    .button {
+
+        display: flex;
+    position: relative;
+    left: 400px;
+    justify-content: space-around;
+    width: 120px;
+    margin: 50px;
+    height: 23px;
+    background-color: orange;
+    }
+
+    .box {
+        display: flex;
+        justify-content: space-between;
+        width: 693px;
+       
+    }
+
+    .box1 {
+        background-color:peachpuff;
+    width: 150px;
+    font-size: 35px;
+    color: rgb(104, 126, 32);
+    border: 8px solid black;
+    flex-direction: column;
+    height: 100px;
+    }
+
+    .box2 {
+        background-color:peachpuff;
+    width: 150px;
+    font-size: 27px;
+    color: rgb(104, 126, 32);
+    border: 8px solid black;
+    flex-direction: column;
+    height: 100px;
+    }
+
+    .box3 {
+        background-color:peachpuff;
+    width: 150px;
+    font-size: 27px;
+    border: 8px solid black;
+    color: rgb(104, 126, 32);
+    flex-direction: column;
+    height: 100px;
+    }
+
+    .section2 {
+        display: flex;
+
+        background-color: #fcfcfc;
+        height: 700px;
+        margin-bottom: 70px;
+    }
+
+    .content {
+        background-color: azure;
+        flex-direction: column;
+        border-bottom: 6px solid orange;
+        position: relative;
+        left: 650px;
+        display: flex;
+        top: 50px;
+        font-size: 25px;
+        height: 40px;
+    }
+
+    .boxes {
+        display: flex;
+    }
+
+    .box4 {
+
+        height: 450px;
+    position: relative;
+    top: 200px;
+    width: 350px;
+    border: 9px;
+    right: 70px;
+    background-image: url(college1.jpg);
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid black;
+    }
+
+    .box5 {
+        height: 450px;
+    position: relative;
+    top: 200px;
+    width: 350px;
+    border: 9px;
+    right: 70px;
+    background-image: url(college2.jpg);
     background-size: contain;
-    background-image: url("azadimlogo.png");
-    border: 4px saddlebrown;
-}
-.blackheader{
-    height:78px;
-    background-color: black;
-    color: aliceblue;
-    border: 10px salmon;
-    /* margin: 0px; */
-    /* padding: 0px; */
-}
-.Notice{
-    padding: 2px;
-    box-sizing: content-box;
-    margin: 4px;
-    text-align: center;
-    background-color: maroon;
-    color: azure;
-}
-.image{
-    height: 1000px;
-    background-image: url(NAAC-Banner.png);
-    padding: 5px;
     background-repeat: no-repeat;
-    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid black;
+    }
+
+    .box6 {
+        height: 450px;
+    position: relative;
+    top: 200px;
+    width: 350px;
+    border: 9px;
+    right: 70px;
+    background-image: url(college3.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid black;
+    }
+
+    .contenttitle {
+        display: flex;
+    height: 40px;
+    font-size: x-large;
+    width: 300px;
+    position: relative;
+    top: 200px;
+    left: 50px;
+    justify-content: normal;
+    font-size: 40px;
+    }
+
+    .content2 {
+        height: 80px;
+    /* border-bottom: 5px solid black; */
+    position: relative;
+    top: 250px;
+    left: 16px;
+    text-align: justify;
+    font-size: 19px;
+    width: 325px;
+    }
+
+    .bottom-liner {
+
+        display: flex;
+    height: 43px;
+    justify-content: space-around;
+    /* width: 100px; */
+    BORDER-TOP: 10px solid gray;
+    position: relative;
+    font-size: larger;
+    top: 251px;
 }
+    
+
+    .section3 {
+        background-image: url(building.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+        margin-bottom: 70px;
+        border-bottom: 8px solid #FFC107;
+
+    }
+
+    .content3 {
+        display: flex;
+        padding: 4px 90px 4px;
+        margin-top: 100px;
+        height: 80px;
+        align-items: baseline;
+    }
+
+    .content4 {
+        display: flex;
+
+        width: 1500px;
+        height: 100px;
+        justify-content: space-around;
+        color: #FFC107;
+        font-size: xx-large;
+
+    }
+
+    .inner-content {
+        font-size: 18px;
+        color: white;
+
+    }
+
+    .numbers {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section4 {
+        background-color: #fcfcfc;
+        display: flex;
+        flex-direction: column;
+        height: 721px;
+        /* margin-bottom: 4px; */
+        border-bottom: 10px solid orange;
+    }
+
+    .heading {
+        display: flex;
+        justify-content: space-around;
+        /* margin: 100px; */
+        margin: 90px 4PX 39PX;
+        font-size: xx-large;
+    }
+
+    .a {
+        display: flex;
+    }
+
+    .mainheading {
+        display: flex;
+        flex-direction: column;
+
+        /* margin: 49px; */
+        border-bottom: 10px solid orange;
+    }
+
+    .images {
+        display: flex;
+        HEIGHT: 320px;
+        justify-content: space-around;
+        /* background-color: aqua; */
+        width: 1513px;
+    }
+
+    .imgsection {
+        display: flex;
+        width: 282px;
+        background-color: aqua;
+        border: 3px solid black;
+        background-repeat: no-repeat;
+    }
+
+    .imgsection upimg1 {
+        background-color: black;
+    }
+
+    .section5 {
+        display: flex;
+        flex-direction: column;
+        height: 573px;
+        background-color: azure;
+    }
+
+    .section5img {
+        height: 329px;
+        display: flex;
+        background-color: white;
+        justify-content: space-around;
+    }
+
+
+    .h1 {
+        display: flex;
+        border-bottom: 10px solid orange;
+        text-align: center;
+        font-size: xx-large;
+        width: 209px;
+        position: relative;
+        left: 640px;
+        margin: 40px;
+    }
+
+    .section5box {
+        background-color: bisque;
+        display: flex;
+        width: 312px;
+    }
+
+    .tab {
+        left: 600px;
+        display: flex;
+        border: 3px solid black;
+        justify-content: center;
+        font-size: xx-large;
+        margin: 50px;
+        position: relative;
+        width: 232px;
+        background-color: yellow;
+    }
+
+    .section6 {
+        height: 300px;
+        display: flex;
+        justify-content: space-around;
+        /* position: relative; */
+        align-items: center;
+        background-image: url("AKGEC.jpg");
+        background-attachment: fixed;
+        color: floralwhite;
+        font-size: xxx-large;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-bottom: 60px;
+        border-bottom: 20px solid orange;
+    }
+
+    .section7 {
+        /* width: 1514px; */
+        /* background-color: aqua; */
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* height: 514px; */
+
+        display: flex;
+        flex-direction: column;
+
+        height: 795px;
+        background-color: azure;
+        border-bottom: 10px solid orange;
+    }
+
+    .section7heading {
+        display: flex;
+        height: 44px;
+        width: 303px;
+        flex-direction: column;
+        margin: 60px;
+        position: relative;
+        left: 500px;
+        font-size: xx-large;
+        color: orange;
+        border-bottom: 5px solid black;
+
+    }
+
+    .section7img {
+        /* background-color: #FFC107; */
+        /* display: flex; */
+
+        height: 600px;
+        display: flex;
+        width: 1510px;
+        background-color: white;
+        justify-content: space-around;
+    }
+
+    .section7box {
+        width: 304px;
+    }
+
+    .ankit {
+        background-image: url("Ankit_Maheshwari.png");
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        background-size: cover;
+        height: 195px;
+    }
+
+    .ankitheading {
+        background-color: aliceblue;
+        text-align: center;
+        font-weight: bold;
+        border-bottom: 5px solid black;
+    }
+
+    .neeraj {
+        background-image: url("Neeraj_Saran.png");
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        background-size: cover;
+        height: 258px;
+    }
+
+    .neerajheading {
+        background-color: aliceblue;
+        text-align: center;
+        font-weight: bold;
+        border-bottom: 5px solid black;
+    }
+
+    .ishu {
+        background-image: url("IshuBansal.jpg");
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        background-size: cover;
+        height: 258px;
+    }
+
+    .ishuheading {
+        background-color: aliceblue;
+        text-align: center;
+        font-weight: bold;
+        border-bottom: 5px solid black;
+    }
+
+    .section8 {
+        display: flex;
+        flex-direction: column;
+
+        height: 795px;
+        background-color: azure;
+        border-bottom: 10px solid orange;
+    }
+
+    .section9 {
+        display: flex;
+        flex-direction: column;
+        background-image: url("MAP.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 617px;
+        background-color: black;
+        border-bottom: 10px solid orange;
+    }
+
+    /* .footer {
+        display: flex;
+        flex-direction: column;
+
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 617px;
+        background-color: gray;
+        border-bottom: 10px solid orange;
+    } */
+
+    .section8heading {
+        display: flex;
+        height: 44px;
+        width: 198px;
+        flex-direction: column;
+        margin: 60px;
+        position: relative;
+        left: 500px;
+        font-size: xx-large;
+        color: orange;
+        border-bottom: 5px solid black;
+
+    }
+
+    .section9heading {
+        display: flex;
+        height: 44px;
+        width: 283px;
+        flex-direction: column;
+        margin: 60px;
+        position: relative;
+        left: 500px;
+        font-size: xx-large;
+        color: orange;
+        border-bottom: 5px solid black;
+
+    }
+
+    .section8write {
+        text-align: center;
+        font-size: larger;
+    }
+
+    .footerwrite {
+        text-align: left;
+        font-size: larger;
+    }
+
+    .section8img {
+        justify-content: space-around;
+        margin-top: 70px;
+        padding-left: 30px;
+        height: 139px;
+        display: flex;
+        width: 1482px;
+    }
+
+    .section9img {
+        justify-content: space-around;
+        margin-top: 70px;
+        padding-left: 30px;
+        height: 239px;
+        color: white;
+
+
+        display: flex;
+        width: 1482px;
+    }
+
+    .section8box {
+        width: 205px;
+    }
+
+    .section9box {
+        width: 340px;
+    }
+
+    .footerbox {
+        width: 445px;
+    }
+    .footercont{
+        margin-top: 40px;
+    display: flex;
+    justify-content: revert;
+    position: relative;
+    right: 109px;
+    }
+
+    .section8img2 {
+        justify-content: space-around;
+        margin-top: 70px;
+        padding-left: 30px;
+        height: 139px;
+        display: flex;
+        width: 1482px;
+    }
+
+    .section8box2 {
+        width: 205px;
+    }
+
+    .tab1 {
+        left: 600px;
+        display: flex;
+        border: 3px solid black;
+        justify-content: center;
+        font-size: xx-large;
+        margin: 50px;
+        position: relative;
+        width: 294px;
+        background-color: yellow;
+    }
+
+    .tab3 {
+        left: 600px;
+        display: flex;
+        border: 3px solid black;
+        justify-content: center;
+        font-size: xx-large;
+        margin: 50px;
+        position: relative;
+        width: 294px;
+        background-color: yellow;
+    }
 </style>
+
 <body>
-    <!-- <footer class="footer"></footer> -->
+   <!-- HEADER -->
     <header class="top header">
-        <nav class="navigation"><div>AJAY KUMAR GARG ENGINEERING COLLEGE</div>
-            <pre>(Affiliated to Dr. APJ Abdul Kalam Technical University, Lucknow, UP, College Code - 027)</pre>
-            <pre style="text-align: right;">AKGEC ERP Login</pre>
+        <nav class="navigation">
+            <div class="logo"></div>
+            <div class="azadi"></div>
+            <div class="name">AJAY KUMAR GARG ENGINEERING COLLEGE
+               <pre> (Affiliated to Dr. APJ Abdul Kalam Technical University, Lucknow, UP, College Code - 027)</pre>
+            </div>
+            <div class="SILVERlogo"></div>
+            <div class="NAACazadi"></div>            
+            <div class="erp">AKGEC ERP LOGIN</div>
+            
         </nav>
         <div class="blackheader"><a href="#" style="color: aliceblue;">about</a>
-        <a href="#" style="color: aliceblue;">department</a></div>
+            <a href="#" style="color: aliceblue;">department</a>
+        </div>
     </header>
-    <div class="Notice">Notice Regarding the Commencement of First-Year/ Lateral Entry Classes</div>
-    <div class="image"></div>
+
+
+    <main class="main">
+        <div class="Notice">Notice Regarding the Commencement of First-Year/ Lateral Entry Classes</div>
+
+
+        <div class="image"></div>
+        <div class="about">ABOUT AKGEC</div>
+
+        <!-- SECTION 1 -->
+        <div class="section">
+            <div class="image_"></div>
+            <div class="college">
+                <p>College was established in 1998 and offers B.Tech Courses in seven disciplines of Engineering.The college also offers M.Tech in Automationand Robotics, Electronics & Communication Engineering, Computer Science, Electrical and Electronics Engineer in and Mechanical Engineering.</p>
+                <div class="button">Read More</div>
+                <div class="box">
+                    <div class="box1">Program
+                        <div class="sec1cont">15+</div>
+                    </div>
+                    <div class="box2">R&D CENTERS
+                        <div class="sec1cont">15+</div>
+                    </div>
+                    <div class="box3">STUDENTS
+                        <div class="sec1cont">15+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ----------------------------------------------------------------------- -->
+        <!-- SECTION 2 -->
+
+        <section class="section2">
+            <div class="content">Our Featured Courses</div>
+            <div class="boxes">
+                <div class="box4">
+                    <div class="contenttitle">
+                        Btech
+                    </div>
+                    <div class="content2">CSE, CS, CS&amp;IT, CSE (AI&amp;ML), CSE (DS),CSE (Hindi), AI&amp;ML, IT, ECE,
+                        ME, EN, CE</div>
+                    <div class="bottom-liner">
+                        <div class="sanction">1320 Sanctioned Intake</div>
+                        <div class="readmore">Read More</div>
+                    </div>
+                </div>
+
+                <div class="box5">box2
+                    <div class="contenttitle">
+                        MCA
+                    </div>
+                    <div class="content2">Mater of computer apllication</div>
+                    <div class="bottom-liner">
+                        <div class="sanction">1320 Sanctioned Intake</div>
+                        <div class="readmore">Read More</div>
+                    </div>
+                </div>
+                <div class="box6">box2
+                    <div class="contenttitle">
+                        MTECH
+                    </div>
+                    <div class="content2">CSE,EC,EN</div>
+                    <div class="bottom-liner">
+                        <div class="sanction">1320 Sanctioned Intake</div>
+                        <div class="readmore">Read More</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section3">
+            <div class="content3" style="color: #fcfcfc;">
+                The college has been consistently maintaining excellent academic results and placements. The college has
+                the distinction of being the first and only college in UP to receive the Acedemic Excellence Award for
+                the Best Engineering College in UPTU from H.E. the Governor of UP for two successive years
+            </div>
+            <div class="content4">
+                <div class="numbers">
+                    <h2>2000+</h2>
+                    <div class="inner-content">
+                        STUDENTS PLACED<br>
+                        (2021-22)
+                    </div>
+                </div>
+                <div class="numbers">
+                    <h2>213+</h2>
+                    <div class="inner-content">
+                        STUDENTS PLACED<br>
+                        (2021-22)
+                    </div>
+                </div>
+                <div class="numbers">
+                    <h2>19k+</h2>
+                    <div class="inner-content">
+                        STUDENTS PLACED<br>
+                        (2021-22)
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section4">
+            <div class="heading">
+                <div class="mainheading">Upcoming Event</div>
+                <div class="mainheading">Achievements</div>
+                <div class="mainheading">Placements</div>
+            </div>
+            <div class="images">
+                <div class="imgsection">
+                    <div class="upimg1"></div>
+                </div>
+                <div class="imgsection">
+                    <div class="upimg2"></div>
+                </div>
+
+                <div class="imgsection">
+                    <div class="upim3"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section5">
+            <div class="h1">
+                Success Stories
+            </div>
+            <div class="section5img">
+                <div class="section5box">
+                    <img src="Neeraj_Success.jpg"></img>
+                </div>
+                <div class="section5box">
+                    <img src="Srishti_Success.jpg"></img>
+                </div>
+                <div class="section5box">
+                    ` <img src="Arun_Success.jpg"></img>
+                </div>
+
+            </div>
+            <div class="tab">
+                View All Stories
+            </div>
+        </section>
+        <section class="section6">
+            ONSITE CAMPUS TOUR AT AKGEC
+        </section>
+        <section class="section7">
+            <div class="section7heading">
+                <div class="head7"> Distinguished Alumni</div>
+            </div>
+            <div class="section7img">
+                <div class="section7box">
+                    <div class="ankit">
+                    </div>
+                    <div class="ankitheading">ANKIT MAHESHWARI<br>
+                        Recipient of AKTU Distinguished <br>
+                        Alumnus Award 2021</div>
+                    <div class="ankitwrite">Ankit Maheshwari, a 2006-2010 batch CSE student of Ajay Kumar Garg
+                        Engineering College, is the Founding Member and currently the President R&D and India Operations
+                        at Innovaccer, a Health Tech Unicorn.Ankit started his career as a Software Engineer at Samsung,
+                        Noida, and within just 4 months got the best Recruit Award for his amazing performance. In 2011,
+                        he moved to Trane/Ingersol Rand and worked as Software Engineer on Futuristic Technologies and
+                        was awarded the India President Award for amazing Performance and Innovation at the workplace.
+                    </div>
+                </div>
+                <div class="section7box">
+                    <div class="neeraj">
+                    </div>
+                    <div class="neerajheading">NEERAJ SRIVASTAVA<br>Recipient of AKTU Distinguished <br>Alumnus Award
+                        2020</div>
+                    <div class="neerajwrite">Neeraj Srivastava, 2005-2009 B.Tech graduate from Electronics and
+                        Communication stream, has been awarded the Distinguished Alumnus Award by Dr. A.P.J. Abdul Kalam
+                        Technical University, Lucknow. This is the first time that the University has instituted the
+                        award in 2021. Neeraj is the founder of DLT Labs - a name well known in the blockchain space.
+                        With the strength of 250+ people globally and offices at multiple locations i.e. Canada, India,
+                        Japan, USA and Singapore, DLT Labs has been growing exponentially, well on its path to be the
+                        next Billion dollar enterprise.
+                    </div>
+                </div>
+                <div class="section7box">
+                    <div class="ishu">
+                    </div>
+                    <div class="ishuheading">ISHU BANSAL<br>"Best initiative in Online Services Award" at Tech Startups
+                        Conclave & Awards 2022</div>
+                    <div class="ishuwrite">Ishu Bansal, Co-founder of TruckSuvidha received the "Best initiative in
+                        Online Services Award" by India’s first Woman IPS officer Kiran Bedi at Tech Startups Conclave &
+                        Awards 2022 conducted at Le Meridien New Delhi organized in association with Ministry of
+                        Electronics and Information Technology.
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section8">
+            <div class="section8heading">
+                <div class="head8"> Our Placement</div>
+            </div>
+            <div class="section8write">AKGEC believes that each student is a valuable resource. The placement cell
+                focuses
+                on each student to maximize his/her career prospects and assists him/her in achieving the same.</div>
+            <div class="section8img">
+                <div class="section8box">
+                    <img src="wipro.jpg"></img>
+                </div>
+                <div class="section8box">
+                    <img src="jakson.jpg"></img>
+                </div>
+                <div class="section8box">
+                    <img src="grape.jpg"></img>
+                </div>
+                <div class="section8box">
+                    <img src="cube.jpg"></img>
+                </div>
+                <div class="section8box">
+                    <img src="lava.jpg"></img>
+                </div>
+                <div class="section8box">
+                    <img src="niit.jpg"></img>
+                </div>
+
+            </div>
+            <div class="section8img2">
+                <div class="section8box2">
+                    <img src="global.jpg"></img>
+                </div>
+                <div class="section8box2">
+                    <img src="hcl.jpg"></img>
+                </div>
+                <div class="section8box2">
+                    <img src="infotech.jpg"></img>
+                </div>
+                <div class="section8box2">
+                    <img src="samsung.jpg"></img>
+                </div>
+                <div class="section8box2">
+                    <img src="tech.jpg"></img>
+                </div>
+                <div class="section8box2">
+                    <img src="maq.jpg"></img>
+                </div>
+            </div>
+            <div class="tab1">View All Placements</div>
+        </section>
+        <!-- SECTION 9 -->
+        <section class="section9">
+            <div class="section9heading">
+                <div class="head9"> What people will say </div>
+            </div>
+            <div class="section9img">
+                <div class="section9box">
+                    <div class="robert">
+                    </div>
+                    <img src="dilipsawhney.jpg"></img>
+                    <div class="robertheading">DR. ROB REILLY<br>
+                        MIT, USA</div>
+                    <div class="robertwrite">Excellent Organization & Hospitality! Nice vibrant function, excellent
+                        academic achievements. My all the best for all your future endeavours
+                    </div>
+
+                </div>
+                <div class="section9box">
+                    <img src="RobReilly.jpg"></img>
+                    <div class="dilip">
+                    </div>
+                    <div class="dilipheading">MR. DILIP SAWHNEY
+                        Rockwell</div>
+                    <div class="dilipwrite">Your passion, infrastructure, facilities and faculty….. All were World
+                        Class. I wish you great success!
+                    </div>
+
+                </div>
+                <div class="section9box">
+                    <img src="rajeev_arora.jpg"></img>
+                    <div class="rajeev">
+                    </div>
+                    <div class="rajeevheading">MR. RAJEEV ARORA
+                        TCS, Delhi</div>
+                    <div class="rajeevwrite">Excellent infrastructure, management is very passionate about the academic.
+                        Thanks for spending time and explaining and taking around the campus.
+                    </div>
+                </div>
+            </div>
+            <div class="tab1">Read All</div>
+        </section>
+        <footer class="footer">
+            <div class="footercont">
+                <div class="footerbox">
+                    <div class="footerwrite">
+                        <pre>
+                        27th Km Milestone,
+                        Delhi-Meerut Expressway,
+                        P.O. Adhyatmik Nagar,
+                        Ghaziabad - 201009
+                        8744052891-93
+                        7290034978
+                        Admissions Enquiry: 1800-200-0777
+                        info@akgec.ac.in<pre>
+                    </div>
+
+                </div>
+                <div class="footerbox">
+                    <div class="footerwrite">
+                        About AKGEC
+
+                        Ajay Kumar Garg Engineering College (AKGEC) offers four year under graduate B.Tech course in ten engineering branches, two year post graduate M.Tech course in four engineering branches and two year post graduate MCA course.
+                    </div>
+
+                </div>
+                <div class="footerbox">
+                    <div class="footerwrite"><pre>
+                        Quick Links :
+                            AKGIM-MBA Admission
+                            AKGIM-MBA
+                            AICTE Approval Letters
+                            NIRF Data for Ranking 2023
+                            Mandatory Disclosure
+                            Open Educational Resources (OER)
+                            Online Reporting of Ragging Cases
+                            Grievance Committee
+                            Internal Complaints Committee<pre>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+    </main>
 </body>
+
 </html>
