@@ -35,6 +35,7 @@ body {
  .azadi{
     width: 137px;
     background-image: url("azadimlogo.png");
+    
     background-repeat: no-repeat;
     background-size: contain;
  }
